@@ -8,36 +8,6 @@
 will build image with tag latest 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Download packages for offline build
-<code>make infra </code>
-
-
-
  
 
 ### Packages
