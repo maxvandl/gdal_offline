@@ -3,14 +3,42 @@
 <code>docker pull python:3.8-slim-buster</code>  
 
 
+### Build image
+<code> make build </code>  
+will build image with tag latest 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Download packages for offline build
 <code>make infra </code>
 
-### Build image
-<code> make build </code>
 
-will build image with tag latest  
+
+ 
 
 ### Packages
 
