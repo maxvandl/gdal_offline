@@ -30,15 +30,6 @@ GDAL_SHORT_VERSION = 3.1.0
 GDAL_VERSION = 3.1.0
 </code>
 
-### Run local env
-<code> make infra </code>
-<code> make build </code>
-<code> make test </code>
-
-<code>
-apt-get install -y --no-install-recommends --download-only cmake build-essential wget ca-certificates unzip pkg-config zlib1g-dev libfreexl-dev libxml2-dev nasm libpng-dev
-</code>
-
 
 ### test image
 <code> docker run -it gdal:latest gdal_merge.py</code> 
