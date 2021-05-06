@@ -13,10 +13,10 @@ will build image with tag latest
 ### Packages
 
 <code>
-WEBP_VERSION = 1.0.0
-ZSTD_VERSION = 1.3.4
-LIBDEFLATE_VERSION = 1.7
-LIBJPEG_TURBO_VERSION = 2.0.5
+WEBP_VERSION = 1.0.0  
+ZSTD_VERSION = 1.3.4  
+LIBDEFLATE_VERSION = 1.7  
+LIBJPEG_TURBO_VERSION = 2.0.5  
 GEOS_VERSION = 3.9.1
 SQLITE_VERSION = 3330000
 SQLITE_YEAR = 2020
@@ -32,5 +32,5 @@ GDAL_VERSION = 3.1.0
 
 
 ### test image
-<code> docker run -it gdal:latest gdal_merge.py</code> 
-<code> docker run -it gdal:latest gdal_translate</code> 
+<code> docker run -it gdal:latest gdal_merge.py</code>   
+<code> docker run -it gdal:latest gdal_translate</code>  
