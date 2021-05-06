@@ -1,6 +1,6 @@
 ### BEFORE you build image
-<code>docker pull debian:buster-slim </code>
-<code>docker pull python:3.8-slim-buster</code>
+<code>docker pull debian:buster-slim </code>  
+<code>docker pull python:3.8-slim-buster</code>  
 
 
 
