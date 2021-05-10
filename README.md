@@ -7,7 +7,7 @@
 <code> make build </code>  
 will build image with tag latest 
 ### Build asp netcore image
-<code> docker build . --file Dockerfile.asp -t gdal-asp </code>
+<code> docker build . --file Dockerfile.asp -t gdal-asp --no-cache </code>
 
  
 
