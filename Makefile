@@ -48,4 +48,4 @@ infra:
 	docker pull ubuntu:20.04
 
 asp:
-	docker build --tag gdal-asp:$(TAG) --file Dockerfile.asp .
+	docker build --tag gdal-asp:$(TAG) --file Dockerfile.asp . --no-cache
