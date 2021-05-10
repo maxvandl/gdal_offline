@@ -46,3 +46,6 @@ infra:
 	wget -P packages https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-${WEBP_VERSION}.tar.gz
     docker pull python:3.8-slim-buster
 	docker pull ubuntu:20.04
+
+asp:
+	docker build --tag gdal-asp:$(TAG) --file Dockerfile.asp .
